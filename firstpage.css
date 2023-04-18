@@ -1,0 +1,156 @@
+body{
+    background-color: white;
+}
+ul{
+    list-style-type: none;                                  /*not to give any style for list tag*/
+    background-color: #d4d4d4;
+    margin-top: 43px;                                       /*space from top*/
+    padding: 0;
+    overflow: hidden;                                       /*too much of text*/
+    border-radius: 25px;
+    
+}
+li {
+    float: left;
+  }
+#itLogo{
+  border: none;
+}
+#indianWear{
+  margin-left: 10px;
+  border-bottom: 3px solid #49BEB7;
+}
+#sleepWear{
+  margin-left: 10px;
+  border-bottom: 3px solid #49BEB7;
+}
+#sportsWear{
+  margin-left: 10px;
+  border-bottom: 3px solid #49BEB7;
+}
+#westernWear{
+  margin-left: 10px;
+  border-bottom: 3px solid #49BEB7;
+}
+#maternity{
+  margin-left: 10px;
+  border-bottom: 3px solid #49BEB7;
+}
+#itProfile{
+  float: right;
+}
+#itWishlist{
+  float: right;
+  margin-right: 13px;
+}
+#itCart{
+  float: right;
+  margin-left: -10px;
+  margin-right: 13px;
+}
+img{
+  opacity:10.5;
+}
+img:hover{
+  opacity:1;
+  filter: alpha(opacity=-0.1);
+}
+ 
+li a{
+    text-align:center;
+    display:block; /*inline in a starightline*/
+    color:black;
+    font-weight:bold; 
+    padding: 14px 16px; /*spacing and length*/
+    text-decoration: none; /*text underline*/
+}
+li div{
+  text-align:center;
+  display:block; /*inline in a starightline*/
+  color:black;
+  font-weight:bold; 
+  padding: 14px 16px; /*spacing and length*/
+  text-decoration: none; /*text underline*/
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+text-decoration: none;
+display: block;
+text-align: center;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li a:hover {
+  opacity: 0.6;  
+  }
+video{
+  margin-top: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.Indianwear .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;  
+}
+.Indianwear .box-container .box{
+  flex:30%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius:15px;
+  border: 2px solid rgba(0,0,0,0.2);
+  position:relative;
+}
+.Indianwear .box-container .box .image{
+  position:relative;
+  text-align:center;
+  padding-top:2rem;
+  overflow:hidden;
+}
+.Indianwear .box-container .box .image img{
+  height:30rem;
+}
+.Indianwear .box-container .box:hover .image img{
+  transform:scale(1.1);
+}
+.Indianwear .box-container .box .image .icons{
+  position:absolute;
+  bottom:0; left:0; right:0;
+  display:flex;  
+}
+.Indianwear .box-container .box .image .icons a{
+  height: 40px;
+  line-height:50px;
+  font-size:larger;
+  width:50%;
+  background-color: aquamarine;
+  color:#006a63;
+  text-decoration: none;
+}
+.Indianwear .box-container .box .image .icons a:hover{
+  transition: 0.7s;
+  background-color: #8a8a8a;
+  color:white ;
+}
+.Indianwear .box-container .box .content{
+  text-align:center;
+}
+.Indianwear .box-container .box .content .p{
+  color:#006a63;
+  font-size: larger;
+}
+.Indianwear .box-container .box .content .price{
+  color:#006a63;
+  font-size: larger;
+
+}
+html, body {
+  min-height: 100%;
+}
